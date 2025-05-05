@@ -7,7 +7,7 @@ from aiogram import Bot
 from aiogram.client.default import DefaultBotProperties
 from services.data import get_data
 
-TOKEN = "7864816967:AAFD7kHMKGv23IV-L33sBhFAFmvkOMP3sV8"
+TOKEN = "Your Token"
 
 dp = Dispatcher()
 

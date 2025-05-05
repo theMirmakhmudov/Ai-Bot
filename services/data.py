@@ -1,5 +1,5 @@
 import requests
-BASE_URL = "https://api.smtv.uz/ai/index.php"
+BASE_URL = "Your api url"
 def get_data(message: str):
     response = requests.get(BASE_URL + f"?text={message}")
     status = response.json()["status"]
